@@ -73,7 +73,7 @@ opt = input("""Select an option:
     1. Change MAC Address
     2. Change IP Address
     3. Change both
-Enter 1, 2, 3 to select an option""")
+Enter 1, 2, 3 to select an option:\n""")
 if opt == str(1) :
     macc(interface)
 if opt == str(2) :
